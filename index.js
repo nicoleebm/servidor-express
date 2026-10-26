@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 if (require.main === module) {
     app.listen(PORT, () => {
-        console.log(`Servidor rodando na porta ${PORT}\nhttp://localhost:3000`);
+        console.log(`Servidor rodando na porta ${PORT}\nhttp://localhost:3000   `);
     });
 }
 
